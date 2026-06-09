@@ -1,0 +1,3 @@
+/home/bong/Cpp_Qt_Bong/build/CMakeFiles/main_app.dir
+/home/bong/Cpp_Qt_Bong/build/CMakeFiles/edit_cache.dir
+/home/bong/Cpp_Qt_Bong/build/CMakeFiles/rebuild_cache.dir

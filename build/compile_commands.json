@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/bong/Cpp_Qt_Bong/build",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/main_app.dir/main.cpp.o -c /home/bong/Cpp_Qt_Bong/main.cpp",
+  "file": "/home/bong/Cpp_Qt_Bong/main.cpp",
+  "output": "CMakeFiles/main_app.dir/main.cpp.o"
+}
+]
