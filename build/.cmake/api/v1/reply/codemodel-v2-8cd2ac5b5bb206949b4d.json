@@ -2,12 +2,11 @@
 	"configurations" : 
 	[
 		{
-			"abstractTargets" : [],
 			"directories" : 
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -40,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "main_app::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main_app-Debug-57cfa12cc0758585fe58.json",
+					"jsonFile" : "target-main_app-Debug-d416de97715f14e7e55d.json",
 					"name" : "main_app",
 					"projectIndex" : 0
 				}
@@ -56,6 +55,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 9
+		"minor" : 6
 	}
 }

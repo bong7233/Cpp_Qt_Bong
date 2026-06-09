@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "4"
+			"value" : "3"
 		},
 		{
 			"name" : "CMAKE_CACHE_MINOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
+			"value" : "28"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/g++"
 		},
 		{
@@ -530,18 +530,6 @@
 			"value" : "/usr/bin/ld"
 		},
 		{
-			"name" : "CMAKE_LIST_FILE_NAME",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Name of CMakeLists files to read"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "CMakeLists.txt"
-		},
-		{
 			"name" : "CMAKE_MAKE_PROGRAM",
 			"properties" : 
 			[
@@ -710,18 +698,6 @@
 			"value" : "1"
 		},
 		{
-			"name" : "CMAKE_PROJECT_COMPAT_VERSION",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : ""
-		},
-		{
 			"name" : "CMAKE_PROJECT_DESCRIPTION",
 			"properties" : 
 			[
@@ -756,18 +732,6 @@
 			],
 			"type" : "STATIC",
 			"value" : "CppStudy"
-		},
-		{
-			"name" : "CMAKE_PROJECT_SPDX_LICENSE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : ""
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -871,7 +835,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/share/cmake-4.2"
+			"value" : "/usr/share/cmake-3.28"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -995,7 +959,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags used by the archiver during the creation of static libraries during all build types."
+					"value" : "Flags used by the linker during the creation of static libraries during all build types."
 				}
 			],
 			"type" : "STRING",
@@ -1011,7 +975,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags used by the archiver during the creation of static libraries during DEBUG builds."
+					"value" : "Flags used by the linker during the creation of static libraries during DEBUG builds."
 				}
 			],
 			"type" : "STRING",
@@ -1027,7 +991,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags used by the archiver during the creation of static libraries during MINSIZEREL builds."
+					"value" : "Flags used by the linker during the creation of static libraries during MINSIZEREL builds."
 				}
 			],
 			"type" : "STRING",
@@ -1043,7 +1007,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags used by the archiver during the creation of static libraries during RELEASE builds."
+					"value" : "Flags used by the linker during the creation of static libraries during RELEASE builds."
 				}
 			],
 			"type" : "STRING",
@@ -1059,7 +1023,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags used by the archiver during the creation of static libraries during RELWITHDEBINFO builds."
+					"value" : "Flags used by the linker during the creation of static libraries during RELWITHDEBINFO builds."
 				}
 			],
 			"type" : "STRING",
@@ -1160,6 +1124,18 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/bong/Cpp_Qt_Bong"
+		},
+		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
 		}
 	],
 	"kind" : "cache",
